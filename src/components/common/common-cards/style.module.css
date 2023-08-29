@@ -1,0 +1,131 @@
+.common_card {
+  padding: 16px 16px 22px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #fff;
+  box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.common_card .common_card_tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.common_card_tags p {
+  display: flex;
+  padding: 5px 10px 6px 9px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.common_card_tags .common_popularity_subtext {
+  border-radius: 1000px;
+  border: 1px solid #b1cd00;
+  background: rgba(177, 205, 0, 0.1);
+  color: #b1cd00;
+}
+
+.common_card_tags .common_inter_subtext {
+  border-radius: 1000px;
+  border: 1px solid #1a71e3;
+  background: rgba(26, 113, 227, 0.1);
+  color: #1a71e3;
+}
+
+.common_card h3 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+}
+
+.cards_wrapper {
+  padding: 64px 0px;
+}
+
+.cards_wrapper h2 {
+  text-align: center;
+  font-family: "Druk Wide Cy Web Bold Regular";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto 45px;
+}
+
+.cards_wrapper h2 span {
+  color: #1466d0;
+  font-family: "Druk Wide Cy Web Bold Regular";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.cards_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards_wrapper button {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 16px 24px;
+  border-radius: 4px;
+  background: #1a71e3;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* media */
+
+@media screen and (max-width: 1000px) {
+  .cards_wrapper h2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .cards_wrapper h2 {
+    font-size: 30px;
+  }
+  .cards_wrapper h2 span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .cards_wrapper h2 {
+    font-size: 25px;
+  }
+  .cards_wrapper h2 span {
+    font-size: 25px;
+  }
+}

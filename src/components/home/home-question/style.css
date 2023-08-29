@@ -1,0 +1,32 @@
+.home_accordion_box button {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #eeeeee;
+  margin: 1% 0;
+  padding: 2% 0;
+}
+
+.home_accordion_box .chakra-accordion__icon {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transition: 0.65s !important;
+  width: 30px;
+  height: 30px;
+}
+
+.home_accordion_box .css-1v8c247 {
+  border: 1px solid #ed254e !important;
+  color: #ed254e;
+  border-radius: 50%;
+  transition: 0.65s;
+}
+
+@media screen and (max-width: 1115px) {
+  .home_accordion_box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px)  {
+
+}

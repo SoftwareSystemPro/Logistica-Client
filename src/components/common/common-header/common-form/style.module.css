@@ -1,0 +1,149 @@
+.common_right_box {
+  background-color: white;
+  width: 60%;
+  border-radius: 14px;
+  padding: 26px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.common_right_box h3 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.common_right_box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 26px;
+  height: 100%;
+}
+
+.common_right_box img {
+  width: 100%;
+}
+
+.common_right_box form div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.common_right_box form .form_mext_btn {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  padding: 14px 0px 16px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 4px;
+  width: 100%;
+  background: #1466d0;
+  border: none;
+  cursor: pointer;
+}
+
+.common_right_box form select {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.02);
+  padding: 14px 12px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.5);
+  text-overflow: ellipsis;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.common_right_box .form_buttons {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.form_buttons .form_back_btn {
+  display: flex;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #6c798a;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add_new_box {
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.add_new_box h3 {
+  color: #1466d0;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.add_new_box img {
+  width: 55%;
+}
+
+.add_new_box button {
+  border-radius: 100px;
+  background: rgba(20, 102, 208, 0.1);
+  color: #1466d0;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* media */
+
+@media screen and (max-width: 965px) {
+  .common_right_box {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .common_right_box {
+    width: 80%;
+  }
+  .form_buttons .form_back_btn {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .common_right_box {
+    width: 84% !important;
+    padding: 16px 18px !important;
+  }
+}

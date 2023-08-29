@@ -1,0 +1,24 @@
+.blog_splide_box {
+  padding: 22px 38px 32px 38px;
+  border-radius: 30px;
+  background: #f2f9ff;
+  border: 1px solid #3690e2;
+}
+
+.blog_splide_box .blog_splide_subtext {
+  margin: 0;
+  padding: 0;
+  padding: 6px 16px 7px 16px;
+  border-radius: 1000px;
+  background: #1466d0;
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  width: 215px;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  margin-bottom: 45px;
+}

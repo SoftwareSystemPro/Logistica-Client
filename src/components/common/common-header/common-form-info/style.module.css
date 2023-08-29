@@ -1,0 +1,75 @@
+.common_left_box {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 100% !important;/ */
+  border-radius: 14px;
+  background: #fff;
+  padding: 26px 32px;
+  width: 60%;
+}
+
+.common_left_box p {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.common_left_box h3 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.common_left_box .head_text {
+  margin: 0;
+  padding: 0;
+  color: #6e7884;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.common_left_box .common_info_head_text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.common_left_box ion-icon {
+  color: #3c8bf4;
+  width: 25px;
+  height: 25px;
+}
+
+.common_left_box .form_info_card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.form_info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.common_left_box .head {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}

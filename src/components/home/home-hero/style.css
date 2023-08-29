@@ -1,0 +1,103 @@
+.home_hero_splide_head .splide__arrow--prev {
+  font-weight: 600 !important;
+  color: white;
+  border: 1px solid white !important;
+  top: 84% !important;
+  left: 83% !important;
+  background-color: white !important;
+  border-radius: 50% !important;
+  width: 48px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-right: 1.5px !important;
+  padding-top: 1px !important;
+}
+
+.home_hero_splide_head .splide__arrow--prev i {
+  color: black !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px !important;
+}
+
+.home_hero_splide_head .splide__arrow--next {
+  font-weight: 600 !important;
+  color: white;
+  border: 1px solid white !important;
+  top: 84% !important;
+  left: 87% !important;
+  background-color: white !important;
+  border-radius: 50% !important;
+  width: 48px !important;
+  height: 48px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding-left: 2px !important;
+  padding-top: 1px !important;
+}
+
+.home_hero_splide_head .splide__arrow--next i {
+  color: black !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px !important;
+}
+
+.home_hero_splide_head .splide__arrows {
+  position: static !important;
+}
+
+.home_hero_splide_head .splide {
+  padding: 0 !important;
+}
+
+.home_hero_splide_head .splide_slick {
+  background: url(../../../assets/home/splide_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 270px 24px 64px 24px;
+  height: 100vh;
+}
+
+/* media */
+
+@media screen and (max-width: 1245px) {
+  .home_hero_splide_head .splide__arrow--prev {
+    left: 80% !important;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .home_hero_splide_head .splide__arrow--prev {
+    left: 75% !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .home_hero_splide_head .splide__arrow--prev {
+    left: 70% !important;
+    display: none !important;
+  }
+  .home_hero_splide_head .splide__arrow--next {
+    left: 70% !important;
+    display: none !important;
+  }
+  .home_hero_splide_head .splide_slick {
+    background-position-x: right !important;
+    height: 75vh !important;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .home_hero_splide_head .splide__arrow--prev {
+    left: 65% !important;
+  }
+  .home_hero_splide_head .splide__arrow--next {
+    left: 84% !important;
+  }
+}

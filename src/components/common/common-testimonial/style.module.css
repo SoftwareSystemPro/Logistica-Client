@@ -1,0 +1,53 @@
+.section_common_testimonial {
+  background: linear-gradient(
+      white 10%,
+      white 20%,
+      white 30%,
+      white 40%,
+      white 45%,
+      #f6f7f9 25%
+    )
+    no-repeat;
+}
+
+.wrapper_common_testimonial {
+  padding: 14px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.wrapper_common_testimonial h2 {
+  color: #000;
+  font-family: "Druk Wide Cy Web Bold Regular";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+}
+
+.common_testimonial_subtext {
+  margin: 0 0 16px 0;
+  padding: 0;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+/* media */
+
+@media screen and (max-width: 1100px) {
+  .wrapper_common_testimonial {
+    padding: 14px 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .wrapper_common_testimonial h2 {
+    font-size: 25px;
+  }
+}

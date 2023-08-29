@@ -1,0 +1,31 @@
+.header_hamburger_wrapper ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header_hamburger_wrapper ul li {
+  border-bottom: 1px solid gray;
+  padding-bottom: 14px;
+}
+
+.header_hamburger_wrapper ul li a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  color: black;
+  cursor: pointer;
+}
+
+.header_call_btn {
+  padding: 8px 20px;
+  border-radius: 100px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}

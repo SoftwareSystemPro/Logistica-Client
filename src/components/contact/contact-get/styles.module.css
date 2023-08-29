@@ -1,0 +1,84 @@
+.wrapper_contact_get {
+  padding: 64px 0px 64px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.wrapper_contact_get h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Druk Wide Cy Web Bold Regular";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin: 0;
+}
+
+.wrapper_contact_get .contact_subtext {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.wrapper_contact_get .contact_card {
+  padding: 28px;
+  border-radius: 10px;
+  height: 75%;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact_col {
+  margin-bottom: 50px;
+}
+
+.contact_card p {
+  margin: 0;
+  padding: 0;
+  color: #bdec00;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+.contact_card h3 {
+  padding: 0;
+  margin: 0;
+  color: #1a1a1c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.contact_card ion-icon {
+  width: 32.5px;
+  height: 26px;
+  color: #1466d0;
+}
+
+.contact_card div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media screen and (max-width: 420px) {
+  .wrapper_contact_get h2 {
+    font-size: 25px;
+  }
+  .wrapper_contact_get .contact_subtext {
+    font-size: 15px;
+  }
+}

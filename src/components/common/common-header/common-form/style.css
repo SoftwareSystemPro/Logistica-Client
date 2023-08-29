@@ -1,0 +1,151 @@
+.login__input {
+  padding: 20px 8px 10px 35px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.02);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  color: #1466d0;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  transition: top 0.3s, font-size 0.3s;
+}
+
+.login__box-input {
+  position: relative;
+}
+
+.login__label {
+  position: absolute;
+  left: 35px;
+  top: 14px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  transition: top 0.3s, font-size 0.3s;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.login__label__icon {
+  position: absolute;
+  left: 6px;
+  top: 9.5px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+}
+
+.login__label__icon__date {
+  position: absolute;
+  left: 6px;
+  top: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+/* Input focus move up label */
+.login__input:focus {
+  border: 1px solid #1466d0;
+}
+
+.login__input:focus + .login__label {
+  top: 10px;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.login__input:not(:placeholder-shown).login__input:not(:focus) + .login__label {
+  top: 10px;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.login__input:not(:placeholder-shown).login__input:not(:focus) {
+  border: 1px solid #1466d0 !important;
+}
+
+.login__input__year:not(:placeholder-shown).login__input__year:not(:focus) {
+  border: 1px solid #1466d0 !important;
+}
+
+/* input in second level */
+
+.login__input__year {
+  padding: 20px 8px 10px 16px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.02);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  color: #1466d0;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.login__label__year {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  transition: top 0.3s, font-size 0.3s;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Input focus move up label */
+.login__input__year:focus + .login__label__year {
+  top: 10px;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.login__input__year:not(:placeholder-shown).login__input__year:not(:focus)
+  + .login__label__year {
+  top: 10px;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* phone input */
+
+.flag-dropdown {
+  display: none !important;
+}
+
+.form-control {
+  width: auto !important;
+  padding: 23px 16px !important;
+  outline: none !important;
+  border-radius: 4px !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  background: rgba(0, 0, 0, 0.02) !important;
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: hidden !important;
+  color: #1466d0 !important;
+  text-overflow: ellipsis !important;
+  font-size: 13px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 130% !important;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}

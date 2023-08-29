@@ -1,0 +1,126 @@
+.section_home_cost {
+  padding: 64px 0px;
+  background: #0c1019;
+}
+
+.section_home_cost .wrapper_home_cost {
+  border-radius: 14px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../../../assets/home/splide_background.png),
+    lightgray 50% / cover no-repeat;
+  padding: 40px 70px;
+  background-position: top, right !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.wrapper_home_cost h2 {
+  color: #fff;
+  font-family: "Druk Wide Cy Web Bold Regular";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 50.4px */
+}
+
+.wrapper_home_cost h2 span {
+  color: #d4ff27;
+  font-family: "Druk Wide Cy Web Bold Regular";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.home_cost_right_box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.wrapper_home_cost .home_cost_right_box h3 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.wrapper_home_cost a {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 16px 24px;
+  border-radius: 4px;
+  background: #1a71e3;
+}
+
+/* media */
+
+@media screen and (max-width: 1100px) {
+  .section_home_cost {
+    padding: 64px 10px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .wrapper_home_cost h2 {
+    font-size: 35px;
+  }
+  .wrapper_home_cost h2 span {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .wrapper_home_cost {
+    display: flex;
+    align-items: flex-start !important;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    gap: 30px !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .wrapper_home_cost {
+    display: flex;
+    flex-direction: column;
+    gap: 5px !important;
+  }
+  .wrapper_home_cost h2 {
+    font-size: 25px;
+  }
+  .wrapper_home_cost h2 span {
+    font-size: 25px;
+  }
+  .home_cost_right_box h3 {
+    font-size: 14px !important;
+  }
+  .home_cost_right_box a {
+    font-size: 15px;
+  }
+  .wrapper_home_cost {
+    padding: 20px 40px !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home_cost_right_box a {
+    font-size: 12px !important;
+  }
+  .wrapper_home_cost h2 {
+    font-size: 20px;
+  }
+  .wrapper_home_cost h2 span {
+    font-size: 20px;
+  }
+}

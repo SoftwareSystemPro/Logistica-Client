@@ -1,0 +1,54 @@
+.wrapper_aboutus_services {
+  padding: 64px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+}
+
+.wrapper_aboutus_services .aboutus_services {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.wrapper_aboutus_services .aboutus_services li {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.wrapper_aboutus_services .aboutus_services li p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper_aboutus_services .aboutus_services li p span {
+  color: #000;
+  font-weight: 600;
+}
+
+/* media */
+
+@media screen and (max-width: 1100px) {
+  .wrapper_aboutus_services {
+    padding: 64px 10px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .wrapper_aboutus_services .aboutus_services {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .wrapper_aboutus_services {
+    gap: 30px;
+  }
+}
